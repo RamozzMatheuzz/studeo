@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import MainIini from "./components/pages/MainInit";
-import Studeo from './components/pages/Studeo';
+import MainIini from "./components/MainInit";
+import Studeo from './components/Studeo';
 
 
 const Routers = () => (

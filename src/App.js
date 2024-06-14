@@ -1,5 +1,4 @@
 //IMPORT ROUTES
-//import MainIini from './components/pages/MainInit';
 import Routers from './routes';
 
 function App() {

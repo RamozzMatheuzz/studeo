@@ -1,16 +1,16 @@
 import React from 'react';
 //IMPORT STYLES
-import '../../../css/sass/style-home.css';
+import '../../css/sass/style-home.css';
 
 // IMPORT IMAGES
-import  logo1 from '../../../img/logo1.svg';
-import imgEua from '../../../img/home/eua-icon.svg';
-import imgEsp from '../../../img/home/esp-icon.svg';
-import star from '../../../img/home/star.svg';
-import  logo3 from '../../../img/logo3.svg';
-import  wpp from '../../../img/home/whatsapp-icon.svg';
-import  lkd from '../../../img/home/linkedin-icon.svg';
-import  insta from '../../../img/home/instagram-icon.svg';
+import  logo1 from '../../img/logo1.svg';
+import imgEua from '../../img/home/eua-icon.svg';
+import imgEsp from '../../img/home/esp-icon.svg';
+import star from '../../img/home/star.svg';
+import  logo3 from '../../img/logo3.svg';
+import  wpp from '../../img/home/whatsapp-icon.svg';
+import  lkd from '../../img/home/linkedin-icon.svg';
+import  insta from '../../img/home/instagram-icon.svg';
 
 //IMPORT ROUTES
 
