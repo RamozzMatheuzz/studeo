@@ -1,0 +1,23 @@
+@import '../../../../../css/sass/layout';
+
+menu{
+    width: 15vw;
+
+    ul{
+        
+        li{
+            height: 5vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            a{
+                width: 100%;
+                box-sizing: border-box;
+                padding: 1vh 45px;
+
+                color: $gray-1;
+            }
+        }
+    }
+}

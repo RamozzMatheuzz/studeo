@@ -1,0 +1,146 @@
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 200;
+  color: #878787;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 200;
+  color: #878787;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #0E9DEB;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #454545;
+}
+
+h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn1 {
+  box-sizing: border-box;
+  padding: 10px 35px;
+  background-image: linear-gradient(to right, #0E9DEB, #015488);
+  color: #fff;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.header-studeo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.header-studeo .header-menu {
+  width: 15vw;
+  box-sizing: border-box;
+  background-color: #015488;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.header-studeo .header-menu .logo {
+  width: 150px;
+}
+.header-studeo .header-menu .btn-menu {
+  background-image: linear-gradient(to bottom right, #72C9F8, #015488);
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 40px;
+  height: 35px;
+}
+.header-studeo .header-menu .btn-menu img {
+  width: 15px;
+  margin: auto auto;
+}
+.header-studeo .header-pages {
+  width: 85vw;
+  height: 7vh;
+  background-color: #F1F1F1;
+}
+.header-studeo .header-pages .curso {
+  margin-left: 35px;
+}
+.header-studeo .header-pages .curso .btnH {
+  width: 200px;
+  height: 40px;
+  margin: 0 5px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.header-studeo .header-pages .curso .btnH img {
+  margin-right: 4px;
+}
+.header-studeo .header-pages .curso .comunicados {
+  background-color: #FF5247;
+}
+.header-studeo .header-pages .curso .notificacoes {
+  background-color: #0E9DEB;
+}
+.header-studeo .header-pages .curso .atividades {
+  font-size: 14px;
+  font-weight: 600;
+  color: #878787;
+}/*# sourceMappingURL=header-style.css.map */

@@ -1,0 +1,80 @@
+@import '../../../../../css/sass/layout.scss';
+
+
+.header-studeo{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    .header-menu{
+        width: 15vw;
+        box-sizing: border-box;
+
+        background-color: $blue-dark;
+
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+
+        .logo{
+            width: 150px;
+        }
+
+        .btn-menu{
+            background-image: linear-gradient(to bottom right, $blue-normal, $blue-dark);
+            border: none;
+            border-radius: 10px;
+
+            box-sizing: border-box;
+            width: 40px;
+            height: 35px;
+
+            img{width: 15px; margin: auto auto;}
+        }
+
+        
+    }
+
+    .header-pages{
+        width: 85vw;
+        height: 7vh;
+        
+        background-color: $gray-2;
+
+        .curso{
+
+            margin-left: 35px;
+            
+            .btnH{
+                width: 200px;
+                height: 40px;
+                margin: 0 5px;
+
+                font-size: 18px;
+                color: #fff;
+                
+                border: none;
+                border-radius: 3px;
+
+                img{margin-right: 4px;}
+
+                cursor: pointer;
+            }
+
+            .comunicados{background-color: $red;}
+            .notificacoes{background-color: $blue-light;}
+
+            .atividades{
+                font-size: 14px;
+                font-weight: 600;
+                color: $gray-1;
+            }
+        }
+
+    }
+
+}

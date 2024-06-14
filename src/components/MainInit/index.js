@@ -35,7 +35,7 @@ function MainIini() {
             ESP
           </button>
           
-          <a href="/studeo"><button className="btn"> Já Sou Aluno</button></a>
+          <a href="/studeo"><button className="btn1"> Já Sou Aluno</button></a>
           
         </div>
       </header>
