@@ -142,75 +142,30 @@ b {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.header-studeo {
-  display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
-}
-.header-studeo .header-menu {
-  width: 15vw;
-  box-sizing: border-box;
-  background-color: #015488;
-  display: flex;
+.cards-wrapper {
   gap: 15px;
   justify-content: center;
-  align-items: center;
 }
-.header-studeo .header-menu .logo {
-  width: 150px;
-}
-.header-studeo .header-menu .btn-menu {
-  background-image: linear-gradient(to bottom right, #72C9F8, #015488);
-  border: none;
+.cards-wrapper .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20vw;
+  height: 12vw;
+  color: #fff;
+  background-color: #72C9F8;
   border-radius: 10px;
   box-sizing: border-box;
-  width: 40px;
-  height: 35px;
+  padding: 15px;
 }
-.header-studeo .header-menu .btn-menu img {
-  width: 15px;
-  margin: auto auto;
+.cards-wrapper .card h5 {
+  margin-bottom: 20px;
 }
-.header-studeo .header-pages {
-  width: 85vw;
-  height: 7vh;
-  background-color: #F1F1F1;
-}
-.header-studeo .header-pages .curso {
-  margin-left: 35px;
-}
-.header-studeo .header-pages .curso .btnH {
-  width: 200px;
-  height: 40px;
-  margin: 0 5px;
-  font-size: 18px;
+.cards-wrapper .card a {
   color: #fff;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
+  margin-top: 15px;
 }
-.header-studeo .header-pages .curso .btnH img {
-  margin-right: 4px;
-}
-.header-studeo .header-pages .curso .comunicados {
-  background-color: #FF5247;
-}
-.header-studeo .header-pages .curso .notificacoes {
-  background-color: #0E9DEB;
-}
-.header-studeo .header-pages .curso .atividades {
-  font-size: 14px;
-  font-weight: 600;
-  color: #878787;
-}
-.header-studeo .header-pages .aluno {
-  margin-right: 20px;
-  align-items: center;
-  gap: 5px;
-}
-.header-studeo .header-pages .aluno .circle-image {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background-color: #0E9DEB;
-}/*# sourceMappingURL=header-style.css.map */
+.cards-wrapper .card .go-diciplina {
+  text-align: center;
+  text-decoration: underline;
+}/*# sourceMappingURL=style-DMatriculadas.css.map */

@@ -1,0 +1,36 @@
+@import '../../../../../css/sass/layout';
+
+
+.cards-wrapper{
+
+    gap: 15px;
+    justify-content: center;
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20vw;
+        height: 12vw;
+
+        color: #fff;
+        background-color: $blue-normal;
+
+        border-radius: 10px;
+
+
+        box-sizing: border-box;
+        padding: 15px;
+
+        h5{margin-bottom: 20px;}
+
+        a{
+            color: #fff;
+            margin-top: 15px;
+        }
+        .go-diciplina{
+            text-align: center;
+            text-decoration: underline;
+        }
+    }
+}

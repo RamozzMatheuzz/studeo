@@ -1,0 +1,17 @@
+@import '../../../../../css/sass/layout.scss';
+
+.footer-studeo{
+    padding: 25px;
+    width: 100%;
+    box-sizing: border-box;
+
+    position: absolute;
+    bottom: 0;
+    
+    .direitos{
+        display: flex;
+        gap: 15px;
+
+        p{color: $gray-1;}
+    }
+}

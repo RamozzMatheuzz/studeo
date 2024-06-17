@@ -142,75 +142,17 @@ b {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.header-studeo {
-  display: flex;
-  justify-content: space-between;
+.footer-studeo {
+  padding: 25px;
+  width: 100%;
   box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
 }
-.header-studeo .header-menu {
-  width: 15vw;
-  box-sizing: border-box;
-  background-color: #015488;
+.footer-studeo .direitos {
   display: flex;
   gap: 15px;
-  justify-content: center;
-  align-items: center;
 }
-.header-studeo .header-menu .logo {
-  width: 150px;
-}
-.header-studeo .header-menu .btn-menu {
-  background-image: linear-gradient(to bottom right, #72C9F8, #015488);
-  border: none;
-  border-radius: 10px;
-  box-sizing: border-box;
-  width: 40px;
-  height: 35px;
-}
-.header-studeo .header-menu .btn-menu img {
-  width: 15px;
-  margin: auto auto;
-}
-.header-studeo .header-pages {
-  width: 85vw;
-  height: 7vh;
-  background-color: #F1F1F1;
-}
-.header-studeo .header-pages .curso {
-  margin-left: 35px;
-}
-.header-studeo .header-pages .curso .btnH {
-  width: 200px;
-  height: 40px;
-  margin: 0 5px;
-  font-size: 18px;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-.header-studeo .header-pages .curso .btnH img {
-  margin-right: 4px;
-}
-.header-studeo .header-pages .curso .comunicados {
-  background-color: #FF5247;
-}
-.header-studeo .header-pages .curso .notificacoes {
-  background-color: #0E9DEB;
-}
-.header-studeo .header-pages .curso .atividades {
-  font-size: 14px;
-  font-weight: 600;
+.footer-studeo .direitos p {
   color: #878787;
-}
-.header-studeo .header-pages .aluno {
-  margin-right: 20px;
-  align-items: center;
-  gap: 5px;
-}
-.header-studeo .header-pages .aluno .circle-image {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background-color: #0E9DEB;
-}/*# sourceMappingURL=header-style.css.map */
+}/*# sourceMappingURL=style-footer.css.map */

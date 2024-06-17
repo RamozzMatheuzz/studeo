@@ -19,8 +19,10 @@ function Header (){
                         <button className="notificacoes btnH"><img className="logo" src={notificationIcon} alt="icon notification" />Notificações</button>
                         <button className="atividades btnH"><img className="logo" src={bookIcon} alt="icon notification" />Atividades</button>
                     </div>
-                    <div className="aluno">
+                    <div className="aluno flex">
                         <h4>Nome do Aluno</h4>
+                        <div className="circle-image">
+                        </div>
                     </div>
                 </div>
             </div>

@@ -32,8 +32,7 @@ h5{
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    //color: $blue-light;
-    font-weight: 200;
+    font-weight: 600;
 }
 
 h6{
@@ -44,7 +43,11 @@ h6{
 p{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    //color: $gray-4;
 }
 
 a{font-family: "Montserrat", sans-serif;}
+
+b{
+    color: $gray-1;
+    font-family: "Montserrat", sans-serif;
+}

@@ -1,7 +1,11 @@
-@import '../../../../../css/sass/layout';
+@import '../../../../../css/sass/layout.scss';
 
 menu{
     width: 15vw;
+    height: 100%;
+    box-sizing: border-box;
+
+    border-right: 1px solid $gray-4;
 
     ul{
         

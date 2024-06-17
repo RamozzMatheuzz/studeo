@@ -1,0 +1,83 @@
+@import '../../../../../css/sass/layout';
+
+.wrapper{
+    height: 80vh;
+    max-width: 100%;
+    position: relative;
+
+    .slide-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        overflow: hidden;
+
+        .slide-nav-button{
+            position: absolute;
+            z-index: 1;
+        
+            background-color: transparent;
+            color: #fff;
+            font-size: 36px;
+        
+            cursor: pointer;
+        }
+        
+        .slide-nav-previous{
+            left: 10px;
+        }
+        
+        .slide-nav-next{
+            right: 10px;
+        }
+
+        .slide-list{
+            display: flex;
+
+            .slide-item{
+                flex-shrink: 0;
+                padding: 0;
+                width: 85vw;
+                height: 40vh;
+            
+                cursor: grab;
+                border: 1px solid red;
+
+                .slide-content{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    height: 100%;
+
+                    .slide-description{
+                        color: #fff;
+                        width: 65%;
+
+                        p{color: $gray-1;}
+                    }
+
+                    .slide-image{width: 30%;}
+                   
+                }
+            }
+        }
+
+        .slide-controls{
+            margin: -30px auto 0;
+
+            .slide-control-button{
+                background-color: transparent;
+                color: rgba(255, 255, 255, 0.6);
+                font-size: 18px;
+                margin: 0 3px;
+                cursor: pointer;
+            }
+
+            .slide-control-button.active{
+                color: #fff;
+            }
+        }
+        
+    }
+}
