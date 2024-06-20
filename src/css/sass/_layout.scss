@@ -26,6 +26,8 @@
 
 .btnY{
   box-sizing: border-box;
+  width: 15vw;
+  height: 6vh;
   padding: 15px 40px;
 
   display: flex;
@@ -70,7 +72,10 @@
 }
 
 
-.flex{display: flex;}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .flex-between{
     display: flex;
@@ -83,7 +88,7 @@
 .flex-around{
     display: flex;
     justify-content: space-around;
-    //align-items: center;
+    align-items: center;
 
     box-sizing: border-box;
 }
@@ -106,4 +111,3 @@
   ::-webkit-scrollbar-thumb:hover {
     background: rgba($color: #000000, $alpha: 0.6); 
   }
-

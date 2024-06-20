@@ -9,6 +9,4 @@ function App() {
   );
 }
 
-console.log(Routers);
-
 export default App;

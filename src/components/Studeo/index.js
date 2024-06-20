@@ -2,8 +2,9 @@ import './css/style-studeo.css';
 
 import Header from './components/Header';
 import Menu from './components/Menu';
-import HomeStudeo from './components/pages/Home';
 import Footer from './components/Footer';
+
+import HomeStudeo from './components/pages/Home';
 
 function Studeo (){
     return(

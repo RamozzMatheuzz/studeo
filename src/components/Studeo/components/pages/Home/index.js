@@ -1,5 +1,6 @@
 import DiciplinasMatriculadas from "../../Matriculadas";
 import imgFile from '../../../../../img/studeo/file-icon.svg';
+import BtnPalestras from '../../BtnPalestras';
 
 function HomeStudeo (){
     return(
@@ -12,23 +13,13 @@ function HomeStudeo (){
                 <a href="/none">Ver Diciplinas </a>
             </div>
 
-            <button className="btnY">
+            <button className="btnY arq">
                 <img src={imgFile} alt="img file" />
                 Arquivos do Curso
             </button>
-
-            <div className="section-btn">
-                <button className="btnP">
-                    <img src={imgFile} alt="img file" />
-                    Curso de Proeficiência
-                </button>
-                <button className="btnP">
-                    <img src={imgFile} alt="img file" />
-                    PALESTRAS, NIVELAMENTO, OUTROS AMBIENTES
-                </button>
-            </div>
-
             
+            <BtnPalestras></BtnPalestras>
+       
         </>
     )
 }

@@ -36,8 +36,10 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
 }
 
 p {
@@ -73,6 +75,8 @@ b {
 
 .btnY {
   box-sizing: border-box;
+  width: 15vw;
+  height: 6vh;
   padding: 15px 40px;
   display: flex;
   gap: 0 10px;
@@ -109,6 +113,7 @@ b {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .flex-between {
@@ -121,6 +126,7 @@ b {
 .flex-around {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   box-sizing: border-box;
 }
 
@@ -180,8 +186,10 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
 }
 
 p {

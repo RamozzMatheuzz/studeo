@@ -7,7 +7,7 @@ function Menu(){
     return(
         <menu>            
                 <ul>
-                    <li><a className="flex-between" href="/none">
+                    <li><a className="flex-between" href="/studeo">
                         <p>Início</p>
                         <img src={imgMenu} alt="img home"/>
                     </a></li>
@@ -19,8 +19,8 @@ function Menu(){
                         <p>Extensão</p>
                         <img src={imgExtension} alt="img home"/>
                     </a></li>
-                    <li><a className="flex-between" href="/none">
-                        <p>Curso</p>
+                    <li><a className="flex-between" href="/myCourse">
+                        <p>Meu Curso</p>
                         <img src={imgMyCourse} alt="img home"/>
                     </a></li>
                     <li><a className="flex-between" href="/none">
