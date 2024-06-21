@@ -206,30 +206,118 @@ b {
   border: 1px solid #E0E0E0;
   border-radius: 5px;
 }
-.body-studeo section .bAndamento .andamentoItem .progressBar {
-  width: 100%;
-  height: 0.4vh;
-  background-color: #878787;
-}
-.body-studeo section .bAndamento .andamentoItem .progressBar .progress {
-  width: 85%;
-  height: 0.4vh;
-  background-color: #0E9DEB;
-}
-.body-studeo section .bAndamento .andamentoItem .progressBar .progress2 {
-  background-color: #EFA61F;
-  width: 20%;
-  height: 0.4vh;
-}
 .body-studeo section .bAndamento .andamentoItem .aFooter {
   font-size: 0.7rem;
   text-align: center;
   color: #878787;
   margin-top: 1vh;
 }
+.body-studeo section .bAcompanhamento {
+  width: 85%;
+  gap: 2vw;
+  justify-content: center;
+  margin: 10vh auto;
+}
+.body-studeo section .bAcompanhamento .acompanhamentoItem {
+  width: 40%;
+  padding: 1vw;
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+}
 .body-studeo section .textDiciplinas {
   padding: 0 10%;
   text-align: center;
+}
+.body-studeo section .Atividades {
+  width: 95%;
+  margin: 0 auto;
+  gap: 3vh;
+}
+
+.progressBar {
+  width: 100%;
+  height: 0.4vh;
+  background-color: #878787;
+}
+.progressBar .progress {
+  width: 85%;
+  height: 0.4vh;
+  background-color: #0E9DEB;
+}
+.progressBar .progress2 {
+  background-color: #EFA61F;
+  width: 20%;
+  height: 0.4vh;
+}
+.progressBar .progress3 {
+  background-color: #4ABEAA;
+  width: 20%;
+  height: 0.4vh;
+}
+.progressBar .progress4 {
+  background-color: #871FEF;
+  width: 20%;
+  height: 0.4vh;
+}
+
+.titleAcomp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+.titleAcomp img {
+  width: 2.3%;
+}
+.titleAcomp h5 {
+  color: #0E9DEB;
+}
+
+.tAndamento {
+  margin: 5vh;
+}
+
+.bAtividade {
+  width: 17vw;
+  height: 17vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.7px solid #878787;
+  border-radius: 3px;
+  text-align: center;
+}
+.bAtividade .situacao {
+  background-color: #4ABEAA;
+  color: #fff;
+  padding: 0.4vh 1vh;
+  border-radius: 0 0 5px 5px;
+}
+.bAtividade .aTitle {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: black;
+}
+.bAtividade p {
+  font-size: 16px;
+  color: #878787;
+}
+.bAtividade img {
+  margin-top: 8vh;
+  width: 15%;
+}
+.bAtividade .entrega {
+  margin-top: 2vh;
+  padding: 1vh;
+  border-top: 0.4px solid #878787;
+  font-size: 14px;
+  color: #4ABEAA;
+}
+.bAtividade .btnAulas {
+  width: 35%;
+  height: 25px;
 }
 
 .container-studeo {

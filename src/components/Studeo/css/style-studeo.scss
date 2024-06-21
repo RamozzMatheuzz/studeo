@@ -72,20 +72,6 @@
                 border: 1px solid $gray-5;
                 border-radius: 5px;
 
-                .progressBar{
-                    width: 100%;
-                    height: .4vh;
-                    background-color: $gray-1;
-
-                    .progress{
-                        width: 85%;
-                        height: .4vh;
-                        background-color: $blue-light;
-                    }
-
-                    .progress2{background-color: $yellow; width: 20%; height: .4vh;}
-                }
-
                 .aFooter{
                     font-size: .7rem;
                     text-align: center;
@@ -96,13 +82,121 @@
 
         }
 
+        .bAcompanhamento{
+            width: 85%;
+
+            gap: 2vw;
+            justify-content: center;
+
+            margin: 10vh auto;
+
+            .acompanhamentoItem{
+                width: 40%;
+
+                padding: 1vw;
+                border: 1px solid $gray-5;
+                border-radius: 5px;
+            }
+        }
+
         .textDiciplinas{
             padding: 0 10%;
             text-align: center;
         }
+
+        .Atividades{
+            width: 95%;
+            margin: 0 auto;
+
+            gap: 3vh;
+        }
     }
 }
 
+.progressBar{
+    width: 100%;
+    height: .4vh;
+    background-color: $gray-1;
+
+    .progress{
+        width: 85%;
+        height: .4vh;
+        background-color: $blue-light;
+    }
+
+    .progress2{background-color: $yellow; width: 20%; height: .4vh;}
+
+    .progress3{background-color: $green; width: 20%; height: .4vh;}
+
+    .progress4{background-color: $purple; width: 20%; height: .4vh;}
+}
+
+.titleAcomp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 5vh;
+
+    img{width: 2.3%;}
+
+    h5{color: $blue-light;}
+}
+
+.tAndamento{margin: 5vh;}
+
+.bAtividade{
+    width: 17vw;
+    height: 17vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: .7px solid $gray-1;
+    border-radius: 3px;
+
+    text-align: center;
+
+    .situacao{
+        background-color: $green;
+        color: #fff;
+
+        padding: .4vh 1vh;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .aTitle{
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: black;
+    }
+
+    p{
+        font-size: 16px;
+        color: $gray-1;
+    }
+
+    img{
+        margin-top: 8vh;
+        width: 15%;
+    }
+
+    .entrega{
+        margin-top: 2vh;
+        padding: 1vh;
+        border-top: .4px solid $gray-1;
+        font-size: 14px;
+        color: $green;
+    }
+
+    .btnAulas{
+        width: 35%;
+        height: 25px;
+    }
+}
 
 
 .container-studeo{

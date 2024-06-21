@@ -259,6 +259,7 @@ header .buttons .btn-lang {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 5rem;
+  color: #fff;
 }
 .banner .content .box-stars {
   display: flex;

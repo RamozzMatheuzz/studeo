@@ -10,7 +10,7 @@ function DiciplinasMatriculadas (){
                     <p>4</p>
                 </div>
                 <a href="/none">Material de Apoio</a>
-                <a className="go-diciplina" href="/none">IR PARA DICIPLINA</a>
+                <a className="go-diciplina" href="/diciplina">IR PARA DICIPLINA</a>
             </div>
 
             <div className="card">
@@ -20,7 +20,7 @@ function DiciplinasMatriculadas (){
                     <p>2</p>
                 </div>
                 <a href="/none">Material de Apoio</a>
-                <a className="go-diciplina" href="/none">IR PARA DICIPLINA</a>
+                <a className="go-diciplina" href="/diciplina">IR PARA DICIPLINA</a>
             </div>
 
             <div className="card">
@@ -30,7 +30,7 @@ function DiciplinasMatriculadas (){
                     <p>2</p>
                 </div>
                 <a href="/none">Material de Apoio</a>
-                <a className="go-diciplina" href="/none">IR PARA DICIPLINA</a>
+                <a className="go-diciplina" href="/diciplina">IR PARA DICIPLINA</a>
             </div>
             
         </div>
